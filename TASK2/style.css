@@ -1,0 +1,456 @@
+/* test1*/
+.box{
+    border: 1px ;
+    width: 100px; 
+    height: 100px;
+    background-color:orange;
+    margin:auto ;
+    margin-top: 30px; 
+    text-align: center;
+}
+.box .box1{
+    opacity:1 ;
+}
+.box2{
+    opacity:0.75 ;
+}
+.box3{
+    opacity:0.5 ;
+
+}
+.box4{
+    opacity:0.25 ;
+}
+/* test2*/
+.text{
+    border: 3px solid black ;
+    width: 300px; 
+    height: 100px;
+    text-align: center;
+    margin:auto ;
+    margin-top: 30px;
+   font-size: xx-small; 
+
+ }
+ .text1{
+   overflow: visible; 
+ }
+ .text2{
+    overflow: hidden;
+ }
+ .text3{
+    overflow: scroll;
+ }
+ .text4{
+    overflow: auto;
+ }
+
+ /* test3*/
+ 
+
+.solid {
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.dashed {
+    border: 2px dashed red;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.dotted {
+    border: 2px dotted blue;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.double {
+    border: 4px double purple;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.groove {
+    border: 4px groove fuchsia;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.ridge {
+    border: 4px ridge greenyellow;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.inset {
+    border: 4px inset yellow;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.outset {
+    border: 4px outset brown;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* test4*/
+.border-only {
+    border:2px solid blue;
+    margin:20px auto;
+    padding:20px;
+    width:200px;
+}
+.outline-only {
+    outline: 2px solid red;
+    margin:20px auto;
+    padding:20px;
+    width:200px;
+}
+.border-outline {
+    border: 2px solid blue;
+    outline: 2px dashed red;
+    margin:20px auto;
+    padding:20px;
+    width:200px;
+}
+
+    .outline-offset {
+        outline: 4px solid orange;
+        outline-offset: 5px;
+        border: 2px solid green;
+        margin:20px auto;
+        padding:20px;
+         width:200px;
+    }
+    /* test5*/
+    .example{
+    background-color: pink; 
+    border: 3px solid purple; 
+    padding: 20px; 
+    text-align: center;
+    }
+
+    /* test6*/
+   .Margin {
+    background-color: pink; 
+    border: 3px solid purple; 
+    margin: 20px; 
+    text-align: center;
+}
+/* test7*/
+.box{
+    width: 300px;
+    height: 100px;
+    background-color:orange;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    color:black;
+}
+.box1 {
+    box-shadow: 10px 10px 15px gray;
+}
+
+.box2 {
+    box-shadow: 5px 5px 10px gray inset;
+}
+
+.box3 {
+    box-shadow: 5px 5px 10px gray,
+     -5px -5px 10px red ;            
+}
+/* test8*/
+.div1 {
+    position: relative;
+    width: 1000px;
+    height: 100px;
+    background-color:white ;
+    top: 0px;
+    left: 0px;
+    border: 2px solid black;
+    text-align:left;
+    }
+
+
+
+  /* test9*/
+
+    .square{
+     width:100px;
+    height:100px;
+     border:1px;
+     position: absolute;
+    }
+    .square1 {
+        background-color: blue;
+        z-index:2;
+        top: 10px; 
+        left: 10px; 
+        }
+    .square2 {
+        background-color: red;
+        z-index:3;
+        top: 20px;
+        left:20px;  
+        }
+    .square3 {
+        background-color: yellow;
+        z-index:4;
+        top: 30px;
+        left:30px;  
+
+        }
+    .square4 {
+        background-color: green;
+        z-index:5;
+        top: 40px;
+        left:40px;  
+        }
+
+
+      /* test10*/
+
+    .absolute{
+        height:200px;
+        width:200px;
+        position: absolute;
+    }
+    
+    .s1{
+       background-color:red;
+       top:0px;
+       left:0px;
+      } 
+      
+      .s2{
+        background-color: blue;
+        top:0px;
+        right:0px;
+      }
+      .s3{
+        background-color:green;
+        bottom:0px; 
+        left:0px;
+      }
+      .s4{
+        background-color:yellow;
+        bottom:0px;
+        right:0px;
+      }
+
+
+      /* test11*/
+
+       .div11{
+        width:200px; 
+        padding:20px;
+        background-color:powderblue ;
+        border-left: 5px solid red ; 
+        border-bottom: 5px dashed rgb(121, 121, 175)  
+        }
+
+       /* test12*/
+       .outer-box {
+        border: 3px solid rgb(39, 205, 207); 
+        padding: 20px; 
+        margin: 10px auto; 
+        width: 500px;
+    }
+    
+    .inner-box {
+        border: 2px dashed red; 
+        padding: 10px;
+        margin: 10px; 
+        background-color: #fdf7f3;
+     }
+   /* test13*/
+
+   .game{
+    border: 1px solid navyblack;  
+    overflow: scroll;
+    width:50% ;
+    margin: auto;}
+
+    
+
+
+
+
+      /* test14*/
+      .Box-shadow{
+        border: 1px solid red  ;
+        width: 200px;
+        height: 200px;
+        margin:auto ;
+        margin-top:100px ;
+        text-align: center; 
+        background-color:white ;
+        box-shadow: 5px -5px  0px red ,
+        10px -10px 0px white,
+        15px -15px 0px blue,
+        20px -20px 0px white,
+        30px -30px 0px  green,
+        35px -35px 0px white,
+        40px -40px 0px purple;
+      }
+
+
+
+
+    /* test15*/
+    
+    .container{ 
+        width: 350px; 
+        background-color: rgb(54, 86, 86);
+        display: flex;
+       flex-flow:row wrap ;
+    }
+    .container div{
+       width: 50px; 
+       height: 50px;
+       margin: 5px;
+       padding: 10px;
+       border: radius 200px; 
+        }
+
+    .B1{
+        top: 50px;
+        left: 50px;
+        background-color: aquamarine;
+        position: relative;
+        z-index: 2;
+        }
+    .B2{
+        background-color: rgb(236, 173, 223);}
+        
+    .B3{
+        background-color: rgb(175, 227, 119);}
+    .B4
+       {
+        background-color:pink; }
+    .B5
+       {
+        background-color:rgb(158, 129, 205); }
+    .B6{
+        background-color:rgb(235, 215, 34);}
+     .B7
+     {
+     background-color:rgb(45, 14, 14);}
+     .B8 
+     {
+     background-color:olive;}
+    .B9 
+    {
+     background-color:orange;}
+   .B10
+   {
+    background-color:rgb(25, 144, 82);
+}
+   .B11
+{
+ background-color:rgba(188, 13, 170, 0.647);
+ 
+}
+  .B12
+       {
+background-color:rgb(20, 146, 115);}
+ 
+
+    
+/* test16*/
+   .logo{
+    position: fixed;
+    left:0px ;
+    top:0px ;
+
+   }
+   /* test17*/
+   .navbar{
+      border: 3px solid #333333;
+      padding:10px;
+      background-color: #333333;
+      position: sticky;
+      
+      
+   }
+   
+     /* test18*/
+   
+    .picture{
+        width:50%; 
+        border-radius: 9px; }
+        
+    .PC1
+    {
+    z-index: 1;
+    }
+    
+    .PC2
+    {
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    }
+    .PC3
+    {
+    top: 30px;
+    left: 30px;
+     position: absolute;
+        }
+    .PC4
+    {
+    top: 40px;
+     left: 40px;
+     position: absolute;
+     }
+
+
+      /* test19*/
+
+      .image{
+        border: 10px solid transparent;
+        top:50%;
+        width:50%;
+        border-image: url(\img.jpg)50 round;
+        left:50% ;
+        transform:(-50%,-50% );
+        position: absolute;}
+    
+    
+         
+
+        
